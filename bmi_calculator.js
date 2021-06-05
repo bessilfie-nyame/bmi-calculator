@@ -3,8 +3,8 @@ let bmiValue = document.getElementById("bmi");
 
 const calculateBMI = () => {
 
-	weight = document.getElementById("height").value;
-	height = document.getElementById("weight").value;
+	height = document.getElementById("height").value;
+	weight = document.getElementById("weight").value;
 
 	try{
 		if (height<=0 || weight<0 || height==null || weight==null) {
