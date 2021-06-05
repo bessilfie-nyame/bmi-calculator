@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	background-image: url("./img/background.jpg");
+}
+
+#container {
+	height: 20rem;
+	width: 20rem;
+	margin: auto;
+	margin-top: 12rem;
+	background-color: purple;
+}
+
+#heading {
+	margin-left: 3rem;
+	color: white;
+}
+
+form {
+	height: 11rem;
+	width: 100%;
+}
+
+input {
+	margin: 0.5rem 0 0 2.8rem;
+	padding: 1rem;
+	font-size: 0.8rem;
+	font-weight: 900;
+}
+
+input:first-child {
+	margin-top: 0rem;
+}
+
+input:last-child {
+	padding: 0.5rem;
+}
+
+hr {
+	border: 1.5px solid black; 
+}
+
+#result {
+	height: 7rem;
+	width: 100%;
+}
+
+#result p:first-child {
+	margin: auto;
+	margin: 0 0 0.5rem 3.5rem;
+	font-size: 1.2rem;
+	font-weight: 800;
+}
+
+#result span {
+	color: white;
+}
+
+#result p:last-child {
+	margin: auto;
+	width: 20rem;
+	font-size: 1.3rem;
+	background-color: white;
+}
