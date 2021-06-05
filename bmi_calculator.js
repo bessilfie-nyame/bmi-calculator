@@ -11,8 +11,7 @@ const calculateBMI = () => {
 			throw new TypeError("Invalid input");
 		}
 
-		const bmi = Math.round((weight / Math.pow(height,2)) * 10000) / 10000;
-
+		const bmi = Math.round((weight / Math.pow(height,2)) * 10000) / 10000; //round result to 4 decimal places
 
 		bmiValue.innerHTML = bmi;
 

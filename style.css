@@ -37,6 +37,11 @@ input:first-child {
 
 input:last-child {
 	padding: 0.5rem;
+	border-radius: 5px;
+}
+
+input:last-child:hover {
+	cursor: pointer;
 }
 
 hr {
