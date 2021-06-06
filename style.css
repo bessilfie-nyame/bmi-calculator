@@ -24,12 +24,15 @@ form {
 	width: 100%;
 }
 
-/*label {
-	
-}*/
+label {
+	margin-left: 2.4rem;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
 
 input {
-	margin: 0.5rem 0 0 2.8rem;
+	margin: 0.5rem 0 0 0rem;
 	padding: 1rem;
 	font-size: 0.8rem;
 	font-weight: 900;
@@ -39,7 +42,12 @@ input:first-child {
 	margin-top: 0rem;
 }
 
+input:nth-child(-n+5) {
+	width: 7rem;
+}
+
 input:last-child {
+	margin-left: 7rem;
 	padding: 0.5rem;
 	border-radius: 5px;
 }
